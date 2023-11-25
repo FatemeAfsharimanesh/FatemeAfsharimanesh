@@ -1,0 +1,134 @@
+x=int(input("enter x"))
+if(x%2==0):
+    print("the number is even ")
+else:
+    print("the number is odd")
+
+
+a=int(input("enter a"))
+b=int(input("enter b"))
+for i in range (a+1,b):
+ if(i%2==0):
+    print(i)
+
+
+n=int(input("enter n="))
+flag=True
+for i in range (2,n):
+   if(n%i==0):
+      flag=False
+      break
+if(flag):
+   print('F')
+   
+
+ if(n%i==0):
+    flag=False
+ break
+if(flag):
+   print('F')
+else:
+   print('H')
+
+ lst=[]
+for i in range(1,101):
+    lst.append(int(input("enter value")))
+lst.sort()
+print(lst)
+
+
+lst=[]
+for i in range(1,11):
+    lst.append(int(input("enter value:")))
+lst.sort(reverse=True)
+print(lst)
+
+
+x=int(input("enter first number"))
+max=x
+min=x
+count=1
+while count < 100:
+    number=int(input("enter number"))
+if(number>max):
+   max=number
+elif(number<min):
+  min=number
+count+=1
+print(max)
+print(min)
+
+
+x=int(input("enter 1st number"))
+count=1
+while count<100:
+  number=int(input("enter another number"))
+count+=1
+if(number>x):
+  max=number
+print(max)            
+
+max=int(input("enter number"))
+counter=1
+while counter <100:
+   n1=int(input("enter number"))
+counter+=1
+if n1>max:
+  max=num1
+print(max)          
+             
+          
+n1=int(input("enter number 1"))
+n2=int(input("enter number 2"))
+n3=int(input("enter number 3"))
+if (n1>n2) and (n1>n3):
+  print("first number is bigger")
+elif(n2>n1) and (n2>n3):
+  print("secod number is bigger")
+elif (n3>n2)and (n3>n1) :
+  print("third number is bigger")
+else:
+  print("3 numbers are equal")
+
+
+          
+  n1=int(input("enter number1"))
+n2=int(input("enter number2"))
+if n1>n2:
+   print("n1 bigger than n2")
+elif n1<n2:
+   print("n2 bigger than n1")
+else:
+  print("two numbers are equal")   
+       
+
+
+ num1=int(input("enter number one"))
+num2=int(input("enter number two"))
+Sum=num1+num2
+print(Sum)         
+
+
+
+Max=Num1
+print(Max)
+Num1=int(input("enter number"))
+Max=Num1
+Min=Num1
+count=1
+while count<100:
+  Num2=int(input("enter number"))
+  if Num2>Max:
+     Max=Num2
+  elif Num2<Min:
+      Min<Num2
+  count+=1
+  print("Max is",Max)
+  print("Max is",Min)
+  
+       
+
+
+
+                   
+
